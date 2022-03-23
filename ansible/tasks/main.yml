@@ -1,6 +1,7 @@
 - name: apt update
   apt:
     update_cache: yes
+  become: true
   
 - name: install dependencies
   package:
@@ -9,12 +10,14 @@
       - git
       - docker
       - docker-compose
+  become: true
 
 - name: start & enable docker
   systemd:
     state: started
     enabled: yes
     name: docker
+  become: true
 
 - name: create services common user
   user:
@@ -25,6 +28,7 @@
     append: True # not required. If C(yes), add the user to the groups specified in C(groups). If C(no), user will only be added to the groups specified in C(groups), removing them from all other groups. Mutually exclusive with C(local)
     password: "!"
     state: present # not required. choices: absent;present. Whether the account should exist or not, taking action if the state is different from what is stated.
+  become: true
 
 - name: create libraries folders
   file:
@@ -34,17 +38,17 @@
     owner: media
     group: media
   loop:
-    - /data/tv
-    - /data/movies
-    - /data/music
+    - /data
+  become: true
 
 - name: clone git repo 
   git:
     repo: https://github.com/elchusco/htpc-download-box.git
-    dest: ~/media/
+    dest: ~media/htpc-download-box
     remote: origin
     clone: yes
-  
+  become: true
+
 - name: change repo owner
   file:
     path: ~media/htpc-download-box
@@ -52,6 +56,7 @@
     recurse: yes
     owner: media
     group: media
+  become: true
 
 - name: set env for media user
   copy:
@@ -61,6 +66,7 @@
     remote_src: yes
     owner: media
     group: media
+  become: true
 
 - name: start docker-compose
   shell:

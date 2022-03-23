@@ -1,6 +1,12 @@
 - name: HTPC-DOWNLOAD-BOX | Home Theatre PC Download Box
   hosts: "{{ host | default('all')}}"
 
+  pre_tasks:
+    - name: install pre-requisites
+      package:
+        state: present
+        name: 
+          - acl
   tasks:
     - name: Include main file
       include: tasks/main.yml
