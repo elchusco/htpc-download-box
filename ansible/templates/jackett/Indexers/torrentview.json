@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://torrentview53.com/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "PHPSESSID=kc7kufmn8ftnovo48uhe0b96c4; 2a0d2363701f23f8a75028924a3af643=MmEwMTplMGE6YTY1OjRkYjA6YmU0NzoxN2I2OjljZDg6Yjg1Nw%3D%3D"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

@@ -1,0 +1,25 @@
+- name: jackett | copy ServerConfig.json
+  template:
+    src: jackett/ServerConfig.json
+    dest: /data/config/jackett/Jackett/ServerConfig.json
+    backup: yes
+    mode: 0640
+    owner: media
+    group: media
+
+- name: jackett | copy indexers json files
+  template:
+    src: "{{ item }}"
+    dest: /data/config/jackett/Jackett/Indexers/
+    backup: yes
+    mode: 0640
+    owner: media
+    group: media
+  with_fileglob:
+    - jackett/Indexers/*
+    
+    
+
+
+
+

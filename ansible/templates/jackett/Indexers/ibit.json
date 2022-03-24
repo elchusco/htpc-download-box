@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://ibit.to/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "_ssn=f5cc76a4bd43d65dc7aa46d49d5ee340; _xsrf=TGN6eEpYVEJTTnVRUmdGQnY2T3prNURPbUZSUFlFMEw=|1647696956438569597|32313063d41f5f972c0ecf257acb772c8fba2f691962efc98bfe9475e5bbefc6"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "sortrequestedfromsite(appliesonlytokeywordsearches)",
+    "type": "inputselect",
+    "name": "Sort requested from site (applies only to Keyword searches)",
+    "value": "uploaded_at",
+    "options": {
+      "uploaded_at": "created",
+      "seeders": "seeders",
+      "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

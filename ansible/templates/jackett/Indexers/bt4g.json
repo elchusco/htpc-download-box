@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://bt4g.org/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_chl_2=0c6c3232c441dda; cf_chl_prog=x9; cf_clearance=LWGCjWMI4D0ArAnMP8vpmru21b1S2bDOxaOxgNtBJyo-1647986360-0-150; _ga=GA1.2.871203667.1647986361; _gid=GA1.2.1850081554.1647986361; _gat_gtag_UA_163225115_1=1"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

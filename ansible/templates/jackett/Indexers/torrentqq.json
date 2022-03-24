@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://torrentqq135.com/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_chl_2=f6dfd47127b22b1; cf_chl_prog=x11; cf_clearance=oG8jpP8WOn2C3QLox53y_w8BHD1K_Ztqg7jcSrC2MjQ-1647986349-0-150; HstCfa4350897=1647986350430; HstCla4350897=1647986350430; HstCmu4350897=1647986350430; HstPn4350897=1; HstPt4350897=1; HstCnv4350897=1; HstCns4350897=1"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www.torrentkitty.tv/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_chl_2=42c70c3ea6ed534; cf_chl_prog=x10; cf_clearance=4XR4YGuSY4XOmXcUkvx0tZg11Cx88XeQ0r1Zb3tbfm8-1647986354-0-150; sc_is_visitor_unique=rx10571718.1647986358.DD059476E15F4F2744AAD6EFB61DE292.1.1.1.1.1.1.1.1.1"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

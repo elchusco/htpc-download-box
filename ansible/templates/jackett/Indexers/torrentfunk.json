@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www.torrentfunk.com/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "__cf_bm=AvAimUteTw0M2XlEYjqq7fBKcxF.zaP6jFYfX7UcEzA-1647986344-0-AezN4m2F6xWFPM0owjoxkCJMz9iJpBc5X7k5Z1xTqqX/vi366MoCeAwGLo5SDWartgROI/kavuPA0M3KpGVDO/U="
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

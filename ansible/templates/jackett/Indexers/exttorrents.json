@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://ext.to/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "PHPSESSID=3gS1ISK3t0gYySyVNjz9vEKnb3UzDHLM; __cf_bm=0O6IeGS3FFVmmTGwGfPe9z_g6wXMX9CCQSGADCz8CWU-1647986364-0-AYN+RquDhXC98Fpb2V6gf7+l/Q30ruEvXvNMOw+bnEd4ZVOQExghlyt4pmkEWhWzQFEqcNta3mp8o1Z1mRhSVg9J1+arL7uI9a9aodBNVGclLQVmiQej+8kSoO+vd7Fs5w==; cf_chl_2=4e67a5b3f4b93f7; cf_chl_prog=x11; cf_clearance=yJSO9pOvGFAyHFJCivISF2PJN5hvX1PtpNUBuL5I_Kk-1647986368-0-150"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "age",
+    "options": {
+      "age": "created",
+      "seed": "seeders",
+      "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]
