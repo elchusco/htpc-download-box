@@ -1,5 +1,6 @@
 - name: HTPC-DOWNLOAD-BOX | Home Theatre PC Download Box
   hosts: "{{ host | default('all')}}"
+  become: true
 
   pre_tasks:
     - name: install pre-requisites

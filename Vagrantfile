@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
       ansible.skip_tags = SKIP_TAGS
     end
     if VERBOSE
-      ansible.verbose = "vvv"
+      ansible.verbose = "vvvvv"
     end
     ansible.compatibility_mode = "2.0"
   end

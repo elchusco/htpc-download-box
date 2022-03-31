@@ -1,5 +1,8 @@
 - include: install.yml
   tags: install
 
-- include: config.yml
-  tags: config
+- include: jackett.yml
+  tags: jackett
+
+- include: sonarr.yml
+tags: sonarr
