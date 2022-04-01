@@ -110,6 +110,8 @@ services:
     image: plexinc/pms-docker:latest
     restart: unless-stopped
     environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
       - TZ=${TZ} # timezone, defined in .env
     network_mode: host
     volumes:

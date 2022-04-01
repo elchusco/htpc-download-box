@@ -3,7 +3,7 @@ module VagrantVars
   OS = "ubuntu"
 
   MEMORY = 6144
-  DISK = ""
+  DISK = "50GB"
   GUI = false
   HOSTNAME = 'htpc'
   TAGS = []
@@ -20,7 +20,8 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "#{MEMORY}"
     unless DISK.empty?
-      config.disksize.size = "#{DISK}"
+      # config.vm.disk :disk, size: "#{DISK}", primary: true
+      # vb.disksize.size = "#{DISK}"
     end
   end
   
